@@ -1,0 +1,47 @@
+@import url(colors.css);
+
+/* FOOTER */
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer__contacts-holder {
+    display: flex;
+    gap: 12px;
+
+}
+
+.footer__contacts-item {
+    width: 417px;
+    height: 204px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 20px;
+    background-color: var(--content-bg);
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__social-item {
+    padding: 8px;
+}

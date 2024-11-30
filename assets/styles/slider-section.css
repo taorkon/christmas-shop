@@ -1,0 +1,75 @@
+@import url(colors.css);
+
+/* SLIDER STYLES */
+
+.slider {
+    overflow: hidden;
+}
+
+.slider__content {
+    width: 1275px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slider__text-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.slider__items {
+    width: 1993px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.slider__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slider__img {
+    border-radius: 20px;
+}
+
+.slider__btn-holder {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.slider__btn {
+    width: 56px;
+    height: 56px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+}
+
+.slider__arrow-holder {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__arrow {
+    width: 50%;
+}
+
+.slider__btn--left {
+    border-color: var(--white40);
+}

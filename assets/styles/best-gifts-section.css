@@ -1,0 +1,22 @@
+@import url(colors.css);
+
+/* BEST GIFTS SECTION */
+
+.best-gifts__content {
+    width: 1275px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.best-gifts__text-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.best-gifts__cards-holder {
+    display: flex;
+    gap: 12px;
+}
