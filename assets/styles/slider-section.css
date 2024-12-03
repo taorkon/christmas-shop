@@ -70,6 +70,10 @@
     width: 50%;
 }
 
-.slider__btn--left {
-    border-color: var(--white40);
+/* Hover */
+
+/* Active */
+
+.slider__btn--inactive {
+    opacity: 0.4;
 }

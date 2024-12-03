@@ -46,7 +46,12 @@ header {
     border-radius: 12px;
 }
 
+/* Behaviour on hover */
+
 .navbar__link:hover {
     background-color: var(--primary10);
+}
+
+.navbar__link:hover > .action-small {
     color: var(--primary);
 }

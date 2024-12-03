@@ -14,3 +14,13 @@
 
     background-color: var(--dark);
 }
+
+/* Behaviour on hover*/
+
+.cta-btn:hover {
+    background-color: var(--white);
+}
+
+.cta-btn:hover > .action-small {
+    color: var(--dark);
+}
