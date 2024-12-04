@@ -1,36 +1,36 @@
-@import url(../variables/colors.css);
+    @import url(../variables/colors.css);
 
-/* CTA BUTTON  STYLES */
+    /* CTA BUTTON  STYLES */
 
-.cta-btn {
-    display: flex;
-    align-items: center;
-    width: 235px;
-    height: 56px;
+    .cta-btn {
+        display: flex;
+        align-items: center;
+        width: 235px;
+        height: 56px;
 
-    padding: 20px 32px;
-    border-radius: 20px;
-    border-width: 0px;
+        padding: 20px 32px;
+        border-radius: 20px;
+        border-width: 0px;
 
-    background-color: var(--dark);
+        background-color: var(--dark);
 
-    cursor: pointer;
-}
+        cursor: pointer;
+    }
 
-/* Behaviour on hover*/
+    /* Behaviour on hover*/
 
-.cta-btn {
-    transition: background-color 0.5s ease-in-out;
-}
+    .cta-btn {
+        transition: background-color 0.5s ease-in-out;
+    }
 
-.cta-btn > .action-small {
-    transition: color 0.5s ease-in-out;
-}
+    .cta-btn > .action-small {
+        transition: color 0.5s ease-in-out;
+    }
 
-.cta-btn:hover {
-    background-color: var(--white);
-}
+    .cta-btn:hover {
+        background-color: var(--white);
+    }
 
-.cta-btn:hover > .action-small {
-    color: var(--dark);
-}
+    .cta-btn:hover > .action-small {
+        color: var(--dark);
+    }

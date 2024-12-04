@@ -117,7 +117,7 @@
 
 .slider-text {
     font-size: 80px;
-    line-height: auto;
+    line-height: normal;
     letter-spacing: 0em;
 
     color: var(--white)
