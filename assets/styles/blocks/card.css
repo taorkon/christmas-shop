@@ -4,12 +4,10 @@
 .card {
     width: 310px;
     height: 342px;
-
-    background-color: var(--white);
     border-radius: 20px;
-    overflow: hidden;
-
+    background-color: var(--white);
     cursor: pointer;
+    overflow: hidden;
 }
 
 .card__img-holder {
@@ -17,18 +15,17 @@
 }
 
 .card__content {
-    padding: 20px;
-
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 20px;
 }
 
 .card__content > .header-3 {
-    text-align: left;
     overflow: hidden;
-    display: -webkit-box;
+    text-align: left;
     word-break: keep-all;
+    display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2;
     -webkit-box-orient: vertical;
