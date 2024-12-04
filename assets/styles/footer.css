@@ -56,11 +56,12 @@
 }
 
 /* Hover */
-
-.footer__contacts-link:hover > .footer__contact  > .action-large {
-    color: var(--primary);
+.footer__contacts-link > .footer__contact  > .action-large,
+.footer__contacts-link > .header-3 {
+    transition: color 0.5s ease-in-out;
 }
 
+.footer__contacts-link:hover > .footer__contact  > .action-large,
 .footer__contacts-link:hover > .header-3 {
     color: var(--primary);
 }
