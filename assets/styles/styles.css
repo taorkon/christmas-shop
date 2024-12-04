@@ -14,10 +14,14 @@
 @import url(blocks/header.css);
 @import url(blocks/footer.css);
 
-/* HOME SECTIONS  */
+/* HOME SECTIONS */
 
 @import url(home-sections/hero-section.css);
 @import url(home-sections/about-section.css);
 @import url(home-sections/slider-section.css);
 @import url(home-sections/best-gifts-section.css);
 @import url(home-sections/cta-section.css);
+
+/* GIFTS SECTIONS */
+
+@import url(gifts-sections/all-gifts.css);

@@ -1,0 +1,23 @@
+/* ALL GIFTS SECTION */
+
+.all-gifts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: url('../../images/all-gifts__css-bkg.png');
+    background-size: 1440px 200px;
+    background-repeat: no-repeat;
+    padding: 60px 8px;
+}
+
+.all-gifts__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all-gifts .header-1 {
+    width: 426px;
+    height: 144px;
+}
