@@ -7,6 +7,13 @@
 
     background-color: var(--white);
     border-radius: 20px;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.card__img-holder {
+    background-color: var(--content-bg);
 }
 
 .card__content {
@@ -19,4 +26,17 @@
 
 .card__content > .header-3 {
     text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    word-break: keep-all;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+/* Hover */
+
+.card:hover .header-3 {
+    color: var(--primary);
 }
