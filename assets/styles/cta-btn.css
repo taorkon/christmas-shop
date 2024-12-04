@@ -19,6 +19,14 @@
 
 /* Behaviour on hover*/
 
+.cta-btn {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.cta-btn > .action-small {
+    transition: color 0.5s ease-in-out;
+}
+
 .cta-btn:hover {
     background-color: var(--white);
 }

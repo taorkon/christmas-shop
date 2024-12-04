@@ -48,6 +48,14 @@ header {
 
 /* Behaviour on hover */
 
+.navbar__link{
+    transition: background-color 0.4s ease-in-out;
+}
+
+.navbar__link > .action-small {
+    transition: color 0.4s ease-in-out;
+}
+
 .navbar__link:hover {
     background-color: var(--primary10);
 }

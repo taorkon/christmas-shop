@@ -81,6 +81,14 @@
 
 /* Hover */
 
+.slider__btn {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.slider__btn path {
+    transition: stroke 0.5s ease-in-out;
+}
+
 .slider__btn:hover {
     background-color: var(--white);
 }
