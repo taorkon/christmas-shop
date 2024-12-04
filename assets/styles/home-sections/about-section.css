@@ -3,34 +3,28 @@
 /* ABOUT SECTION */
 
 .about__content {
+    display: flex;
     width: 1276px;
     height: 528px;
-
-    display: flex;
-    overflow: hidden;
-
-    background-color: var(--white);
     border-radius: 20px;
+    background-color: var(--white);
+    overflow: hidden;
 }
 
-.about__left-content {
-    width: 50%;
-    padding: 0px 60px;
-
-    display: flex;
+.about__left-content {display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 50%;
+    padding: 0px 60px;
 }
 
 .about__text-holder {
-    width: 426px;
-    padding: 60px 0px;
-
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px;
-
+    width: 426px;
+    padding: 60px 0px;
     text-align: left;
 }
 

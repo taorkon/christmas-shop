@@ -7,11 +7,10 @@
 }
 
 .slider__content {
-    width: 1275px;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 1275px;
 }
 
 .slider__text-holder {
@@ -21,10 +20,9 @@
 }
 
 .slider__items {
-    width: 1993px;
-
     display: flex;
     gap: 20px;
+    width: 1993px;
 }
 
 .slider__item {
@@ -44,28 +42,24 @@
 }
 
 .slider__btn {
-    width: 56px;
-    height: 56px;
-    padding: 0px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: transparent;
+    width: 56px;
+    height: 56px;
     border: 1px solid var(--white);
     border-radius: 20px;
-
+    background-color: transparent;
     cursor: pointer;
+    padding: 0px;
 }
 
 .slider__arrow-holder {
-    width: 24px;
-    height: 24px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 24px;
+    height: 24px;
 }
 
 .slider__arrow {
