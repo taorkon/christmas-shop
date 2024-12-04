@@ -1,4 +1,4 @@
-@import url(colors.css);
+@import url(../variables/colors.css);
 
 /* HERO SECTION */
 .hero {
@@ -6,7 +6,7 @@
 
     border-radius: 20px 20px 0px 0px;
 
-    background-image: url(../images/hero__css-bkg.png), url(../images/section__css-bkg-snow.png);
+    background-image: url(../../images/hero__css-bkg.png), url(../../images/section__css-bkg-snow.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

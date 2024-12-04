@@ -1,0 +1,23 @@
+/* RESET */
+@import url(reset/normalize.8.0.1.css);
+@import url(reset/reset.css);
+
+/* GENERAL STYLES */
+
+@import url(general/general.css);
+
+/* BLOCKS */
+
+@import url(blocks/text-blocks.css);
+@import url(blocks/card.css);
+@import url(blocks/cta-btn.css);
+@import url(blocks/header.css);
+@import url(blocks/footer.css);
+
+/* HOME SECTIONS  */
+
+@import url(home-sections/hero-section.css);
+@import url(home-sections/about-section.css);
+@import url(home-sections/slider-section.css);
+@import url(home-sections/best-gifts-section.css);
+@import url(home-sections/cta-section.css);
