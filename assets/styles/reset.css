@@ -1,0 +1,16 @@
+/* Reset Styles */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+a {
+    all: unset;
+}
+
+a {
+    cursor: pointer;
+}

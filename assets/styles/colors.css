@@ -1,0 +1,13 @@
+/* Colors */
+:root {
+    --primary: #FF4646;
+    --primary10: #ff46461a;
+    --white: #fff;
+    --white40: #ffffff66;
+    --dark: #181C29;
+
+    --work-tag: #4361FF;
+    --health-tag: #06A44F;
+    --harmony-tag: #FF43F7;
+    --content-bg: #ECF3F8;
+}

@@ -1,0 +1,16 @@
+@import url(colors.css);
+
+/* CTA BUTTON  STYLES */
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    height: 56px;
+
+    padding: 20px 32px;
+    border-radius: 20px;
+    border-width: 0px;
+
+    background-color: var(--dark);
+}
