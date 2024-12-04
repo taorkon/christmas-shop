@@ -1,4 +1,4 @@
-@import url(colors.css);
+@import url(../variables/colors.css);
 
 /* SLIDER STYLES */
 
@@ -7,11 +7,10 @@
 }
 
 .slider__content {
-    width: 1275px;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 1275px;
 }
 
 .slider__text-holder {
@@ -21,10 +20,9 @@
 }
 
 .slider__items {
-    width: 1993px;
-
     display: flex;
     gap: 20px;
+    width: 1993px;
 }
 
 .slider__item {
@@ -44,32 +42,61 @@
 }
 
 .slider__btn {
-    width: 56px;
-    height: 56px;
-    padding: 0px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: transparent;
+    width: 56px;
+    height: 56px;
     border: 1px solid var(--white);
     border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
 }
 
 .slider__arrow-holder {
-    width: 24px;
-    height: 24px;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 24px;
+    height: 24px;
 }
 
 .slider__arrow {
     width: 50%;
 }
 
-.slider__btn--left {
-    border-color: var(--white40);
+/* Inactive state */
+
+.slider__btn--inactive {
+    opacity: 0.4;
+    cursor: unset;
+}
+
+/* Hover */
+
+.slider__btn {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.slider__btn path {
+    transition: stroke 0.5s ease-in-out;
+}
+
+.slider__btn:hover {
+    background-color: var(--white);
+}
+
+.slider__btn:hover path {
+    stroke: var(--primary);
+}
+
+/* Disable hover effects for the inactive state*/
+
+.slider__btn--inactive:hover {
+    background-color: unset;
+}
+
+.slider__btn--inactive:hover path {
+    stroke: var(--white);
 }

@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/normalize.8.0.1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/styles.css">
     <title>The Gifts</title>
     <link rel="icon" type="image/x-icon" href="assets/icons/logo__icon.svg">
@@ -15,7 +19,7 @@
     <header>
         <div class="header__content">
             <div class="logo">
-                <a href="#" class="logo__link">
+                <a href="index.html" class="logo__link">
                     <img src="assets/icons/logo__icon.svg" alt="Logo with a red-coloured snowflake" class="logo__icon">
                     <div class="logo__text-holder">
                         <p class="action-small">The Gifts</p>
@@ -30,17 +34,17 @@
                         </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="" class="navbar__link">
+                        <a href="#about-anchor" class="navbar__link">
                             <p class="action-small">About</p>
                         </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="" class="navbar__link">
+                        <a href="#best-gifts-anchor" class="navbar__link">
                             <p class="action-small">Best</p>
                         </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="" class="navbar__link">
+                        <a href="#footer-anchor" class="navbar__link">
                             <p class="action-small">Contacts</p>
                         </a>
                     </li>
@@ -58,14 +62,14 @@
                     <h1 class="header-1__text">Gift yourself<br>the magic of new<br> possibilities</h1>
                 </div>
                 <button class="cta-btn">
-                    <p class="action-small action-small--white">Explore Magical Gifts</p>
+                    <span class="action-small action-small--white">Explore Magical Gifts</span>
                 </button>
                 <div class="caption">
                     <p class="caption__text">and Happy New Year</p>
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about-anchor">
             <div class="about__content">
                 <div class="about__left-content">
                     <div class="about__text-holder">
@@ -137,22 +141,28 @@
                     </div>
                 </div>
                 <div class="slider__btn-holder">
-                    <button class="slider__btn slider__btn--left">
-                        <div class="slider__arrow-holder">
-                            <img src="assets/icons/slider__arrow--left.svg" alt="Arrow pointing to the left"
-                                class="slider__arrow slider__arrow--left">
-                        </div>
+                    <button class="slider__btn slider__btn--left slider__btn--inactive">
+                        <span class="slider__arrow-holder">
+                            <svg class="slider__arrow slider__arrow--left" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.5 7H1M1 7L7 1M1 7L7 13" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
                     </button>
                     <button class="slider__btn slider__btn--right">
-                        <div class="slider__arrow-holder">
-                            <img src="assets/icons/slider__arrow--right.svg" alt="Arrow pointing to the right"
-                                class="slider__arrow slider__arrow--right">
-                        </div>
+                        <span class="slider__arrow-holder">
+                            <svg class="slider__arrow slider__arrow--right" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
                     </button>
                 </div>
             </div>
         </section>
-        <section class="best-gifts">
+        <section class="best-gifts" id="best-gifts-anchor">
             <div class="best-gifts__content">
                 <div class="best-gifts__text-holder">
                     <div class="caption">
@@ -211,7 +221,8 @@
                                 <h4 class="header-4__text header-4--harmony">For harmony</h4>
                             </div>
                             <div class="header-3">
-                                <h3 class="header-3__text">Spontaneous Coding Philosopher</h3>
+                                <h3 class="header-3__text">Spontaneous Coding Philosopher Spontaneous Coding Philosopher
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -224,7 +235,7 @@
                     <h2 class="header-2__text">Ready to start your journey to a better version of yourself?</h2>
                 </div>
                 <button class="cta-btn">
-                    <p class="action-small action-small--white">Explore Magical Gifts</p>
+                    <span class="action-small action-small--white">Explore Magical Gifts</span>
                 </button>
                 <div class="cta__counter-holder">
                     <div class="caption">
@@ -272,17 +283,16 @@
         </section>
     </main>
     <footer>
-        <div class="footer__container">
+        <div class="footer__container" id="footer-anchor">
             <ul class="footer__contacts-holder">
                 <li class="footer__contacts-item">
-                    <a href="" class="footer__contacts-link">
+                    <a href="tel:+375291112233" target="_blank" class="footer__contacts-link">
                         <div class="footer__contacts-icon-holder">
                             <img src="assets/icons/footer__contact-icon--1.svg" alt="An image of Santa"
                                 class="footer__contact-icon footer__contact-icon--1">
                         </div>
                         <div class="footer__contact">
-                            <p class="action-large"><a href="tel:+375291112233" target="_blank">+375 (29)
-                                    111-22-33</a></p>
+                            <p class="action-large">+375 (29)111-22-33</p>
                         </div>
                         <div class="header-3">
                             <h3 class="header-3__text">Call Us</h3>
@@ -290,15 +300,14 @@
                     </a>
                 </li>
                 <li class="footer__contacts-item">
-                    <a href="" class="footer__contacts-link">
+                    <a href="https://maps.app.goo.gl/xhryvRq5jTzidotE8" class="footer__contacts-link">
                         <div class="footer__contacts-icon-holder">
                             <img src="assets/icons/footer__contact-icon--2.svg"
                                 alt="An image of a dancing Christmas tree"
                                 class="footer__contact-icon footer__contact-icon--2">
                         </div>
                         <div class="footer__contact">
-                            <p class="action-large"><a href="https://maps.app.goo.gl/xhryvRq5jTzidotE8"
-                                    target="_blank">Magic forest</a></p>
+                            <p class="action-large">Magic forest</p>
                         </div>
                         <div class="header-3">
                             <h3 class="header-3__text">Meet us</h3>
@@ -306,14 +315,13 @@
                     </a>
                 </li>
                 <li class="footer__contacts-item">
-                    <a href="" class="footer__contacts-link">
+                    <a href="mailto:gifts@magic.com" target="_blank" class="footer__contacts-link">
                         <div class="footer__contacts-icon-holder">
                             <img src="assets/icons/footer__contact-icon--3.svg" alt="An image of a snake"
                                 class="footer__contact-icon footer__contact-icon--3">
                         </div>
                         <div class="footer__contact">
-                            <p class="action-large"><a href="mailto:gifts@magic.com" target="_blank">gifts@magic.com</a>
-                            </p>
+                            <p class="action-large">gifts@magic.com</p>
                         </div>
                         <div class="header-3">
                             <h3 class="header-3__text">Write to us</h3>
