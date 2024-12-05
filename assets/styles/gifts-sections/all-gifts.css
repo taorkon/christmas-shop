@@ -43,7 +43,9 @@
 }
 
 /* Hover */
-
+.all-gifts__filter-item {
+    transition: background-color 0.5s ease-in-out;
+}
 .all-gifts__filter-item:hover {
     background-color: var(--white20);
 }
