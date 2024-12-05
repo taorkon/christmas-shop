@@ -1,13 +1,12 @@
-@import url(colors.css);
+@import url(../variables/colors.css);
 
 /* BEST GIFTS SECTION */
 
 .best-gifts__content {
-    width: 1275px;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 1275px;
 }
 
 .best-gifts__text-holder {
