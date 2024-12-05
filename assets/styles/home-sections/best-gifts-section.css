@@ -30,3 +30,10 @@
         width: 700px;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .best-gifts__cards-holder {
+        max-width: 360px;
+        width: 360px;
+    }
+}
