@@ -2,6 +2,7 @@
 
 /* CARD STYLES */
 .card {
+    flex: 0 0 310px;
     width: 310px;
     height: 342px;
     border-radius: 20px;

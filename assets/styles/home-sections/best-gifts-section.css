@@ -5,6 +5,7 @@
 .best-gifts__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     max-width: 1275px;
     width: 90%;
@@ -18,5 +19,13 @@
 
 .best-gifts__cards-holder {
     display: flex;
+    justify-content: center;
     gap: 12px;
+}
+
+@media screen and (max-width: 1350px) {
+    .best-gifts__cards-holder {
+        flex-wrap: wrap;
+        width: 752px;
+    }
 }
