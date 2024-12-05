@@ -47,7 +47,7 @@ header {
     transition: background-color 0.4s ease-in-out;
 }
 
-.navbar__link > .action-small {
+.navbar__link  .action-small {
     transition: color 0.4s ease-in-out;
 }
 
@@ -55,6 +55,6 @@ header {
     background-color: var(--primary10);
 }
 
-.navbar__link:hover > .action-small {
+.navbar__link:hover  .action-small {
     color: var(--primary);
 }

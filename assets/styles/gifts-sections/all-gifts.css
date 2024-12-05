@@ -14,6 +14,7 @@
 .all-gifts__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
@@ -21,3 +22,36 @@
     width: 426px;
     height: 144px;
 }
+
+.all-gifts__filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.all-gifts__filter-item {
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.all-gifts__card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Hover */
+
+.all-gifts__filter-item:hover {
+    background-color: var(--white20);
+}
+
+/* Active */
+
+.all-gifts__filter-item--active {
+    background-color: var(--white20);
+}
+
+
