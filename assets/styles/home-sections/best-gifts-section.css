@@ -26,6 +26,7 @@
 @media screen and (max-width: 1350px) {
     .best-gifts__cards-holder {
         flex-wrap: wrap;
-        width: 752px;
+        max-width: 700px;
+        width: 700px;
     }
 }

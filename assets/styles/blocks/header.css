@@ -2,10 +2,6 @@
 
 /*HEADER*/
 
-header {
-    padding: 0px 8px;
-}
-
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -41,6 +37,36 @@ header {
     display: block;
     border-radius: 12px;
     padding: 12px 20px;
+}
+
+.burger {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .burger__line {
+        width: 20px;
+        height: 1px;
+        background-color: var(--dark); 
+    }
 }
 
 /* Behaviour on hover */

@@ -9,8 +9,8 @@
         height: 56px;
         border-radius: 20px;
         border-width: 0px;
-        background-color: var(--dark);
         cursor: pointer;
+        background-color: var(--dark);
         padding: 20px 32px;
     }
 
