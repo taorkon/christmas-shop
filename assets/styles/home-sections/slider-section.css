@@ -76,28 +76,31 @@
 
 /* Hover */
 
-.slider__btn {
-    transition: background-color 0.5s ease-in-out;
-}
+@media (hover: hover) {
 
-.slider__btn path {
-    transition: stroke 0.5s ease-in-out;
-}
+    .slider__btn {
+        transition: background-color 0.5s ease-in-out;
+    }
 
-.slider__btn:hover {
-    background-color: var(--white);
-}
+    .slider__btn path {
+        transition: stroke 0.5s ease-in-out;
+    }
 
-.slider__btn:hover path {
-    stroke: var(--primary);
-}
+    .slider__btn:hover {
+        background-color: var(--white);
+    }
 
-/* Disable hover effects for the inactive state*/
+    .slider__btn:hover path {
+        stroke: var(--primary);
+    }
 
-.slider__btn--inactive:hover {
-    background-color: unset;
-}
+    /* Disable hover effects for the inactive state*/
 
-.slider__btn--inactive:hover path {
-    stroke: var(--white);
+    .slider__btn--inactive:hover {
+        background-color: unset;
+    }
+
+    .slider__btn--inactive:hover path {
+        stroke: var(--white);
+    }
 }

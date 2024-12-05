@@ -65,24 +65,26 @@
     .burger__line {
         width: 20px;
         height: 1px;
-        background-color: var(--dark); 
+        background-color: var(--dark);
     }
 }
 
 /* Behaviour on hover */
 
-.navbar__link{
-    transition: background-color 0.4s ease-in-out;
-}
+@media (hover: hover) {
+    .navbar__link {
+        transition: background-color 0.4s ease-in-out;
+    }
 
-.navbar__link  .action-small {
-    transition: color 0.4s ease-in-out;
-}
+    .navbar__link .action-small {
+        transition: color 0.4s ease-in-out;
+    }
 
-.navbar__link:hover {
-    background-color: var(--primary10);
-}
+    .navbar__link:hover {
+        background-color: var(--primary10);
+    }
 
-.navbar__link:hover  .action-small {
-    color: var(--primary);
+    .navbar__link:hover .action-small {
+        color: var(--primary);
+    }
 }

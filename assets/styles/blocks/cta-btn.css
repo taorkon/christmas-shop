@@ -1,21 +1,22 @@
-    @import url(../variables/colors.css);
+@import url(../variables/colors.css);
 
-    /* CTA BUTTON  STYLES */
+/* CTA BUTTON  STYLES */
 
-    .cta-btn {
-        display: flex;
-        align-items: center;
-        width: 235px;
-        height: 56px;
-        border-radius: 20px;
-        border-width: 0px;
-        cursor: pointer;
-        background-color: var(--dark);
-        padding: 20px 32px;
-    }
+.cta-btn {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    height: 56px;
+    border-radius: 20px;
+    border-width: 0px;
+    cursor: pointer;
+    background-color: var(--dark);
+    padding: 20px 32px;
+}
 
-    /* Behaviour on hover*/
+/* Behaviour on hover*/
 
+@media (hover: hover) {
     .cta-btn {
         transition: background-color 0.5s ease-in-out;
     }
@@ -31,3 +32,4 @@
     .cta-btn:hover > .action-small {
         color: var(--dark);
     }
+}

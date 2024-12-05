@@ -44,11 +44,15 @@
 }
 
 /* Hover */
-.all-gifts__filter-item {
-    transition: background-color 0.5s ease-in-out;
-}
-.all-gifts__filter-item:hover {
-    background-color: var(--white20);
+
+@media (hover: hover) {
+    .all-gifts__filter-item {
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .all-gifts__filter-item:hover {
+        background-color: var(--white20);
+    }
 }
 
 /* Active */
@@ -56,5 +60,3 @@
 .all-gifts__filter-item--active {
     background-color: var(--white20);
 }
-
-
