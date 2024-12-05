@@ -22,6 +22,12 @@
     padding: 120px 0px;
 }
 
+@media screen and (max-width: 400px) {
+    .cta__content{
+        width: 360px;
+    }
+}
+
 .cta__counter-holder {
     display: flex;
     flex-direction: column;
