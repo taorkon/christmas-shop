@@ -1,0 +1,44 @@
+@import url(../variables/colors.css);
+
+/* CARD STYLES */
+.card {
+    flex: 0 0 310px;
+    width: 310px;
+    height: 342px;
+    border-radius: 20px;
+    background-color: var(--white);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card__img-holder {
+    background-color: var(--content-bg);
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.card__content > .header-3 {
+    overflow: hidden;
+    text-align: left;
+    word-break: keep-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Hover */
+@media (hover: hover) {
+    .card:hover .header-3 {
+        transition: color 0.5s ease-in-out;
+    }
+
+    .card:hover .header-3 {
+        color: var(--primary);
+    }
+}
