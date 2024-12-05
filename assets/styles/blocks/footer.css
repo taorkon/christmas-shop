@@ -12,7 +12,8 @@
 .footer__contacts-holder {
     display: flex;
     gap: 12px;
-    width: 1276px;
+    max-width: 1275px;
+    width: 90%;
 }
 
 .footer__contacts-item {

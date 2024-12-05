@@ -4,14 +4,16 @@
 
 .about__content {
     display: flex;
-    width: 1276px;
+    max-width: 1276px;
+    width: 90%;
     height: 528px;
     border-radius: 20px;
     background-color: var(--white);
     overflow: hidden;
 }
 
-.about__left-content {display: flex;
+.about__left-content {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 50%;
@@ -23,7 +25,8 @@
     flex-direction: column;
     align-items: start;
     gap: 20px;
-    width: 426px;
+    max-width: 426px;
+    width: 100%;
     padding: 60px 0px;
     text-align: left;
 }
@@ -33,6 +36,11 @@
     text-align: left;
 }
 
-.about__img {
-    border-radius: 20px;
+.about__img-holder {
+    width: 50%;
+    border-radius: 20px;;
+    background-image: url('../../images/about__img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

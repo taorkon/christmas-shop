@@ -11,9 +11,11 @@ header {
     justify-content: space-between;
     margin: auto;
     max-width: 1080px;
-    width: 1080px;
+    min-width: 364px;
+    width: 95%;
     padding: 12px 0px;
 }
+
 
 .logo__link {
     display: flex;

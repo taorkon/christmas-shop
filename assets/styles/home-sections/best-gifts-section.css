@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 1275px;
+    max-width: 1275px;
+    width: 90%;
 }
 
 .best-gifts__text-holder {
