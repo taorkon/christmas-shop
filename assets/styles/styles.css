@@ -2,6 +2,10 @@
 @import url(reset/normalize.8.0.1.css);
 @import url(reset/reset.css);
 
+/* COLORS */
+
+@import url(variables/colors.css);
+
 /* GENERAL STYLES */
 
 @import url(general/general.css);
