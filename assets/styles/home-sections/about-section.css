@@ -37,9 +37,28 @@
 
 .about__img-holder {
     width: 50%;
+    height: 528px;
+    min-height: 528px;
     border-radius: 20px;;
     background-image: url('../../images/about__img.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+    .about__content {
+        flex-direction: column;
+        height: 880px;
+    }
+
+    .about__left-content {
+        max-height: 352px;
+        height: 352px;
+        min-height: 352px;
+    }
+    .about__left-content,
+    .about__img-holder {
+        width: 100%;
+    }
 }
