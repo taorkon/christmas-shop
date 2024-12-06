@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 400px) {
 
-    .footer__contacts-item {
-        flex: 0 0 350px;
+    .footer__contacts-holder {
+        flex-flow: column nowrap;
     }
 }
 
