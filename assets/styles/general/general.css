@@ -18,19 +18,22 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*overflow-x: hidden;*/ /* worked but its cheting*/
 }
 
 body,
 main {
     width: 100%;
 }
-
+/* header section footer overflow body & main in chrome (FF - ok)*/
 header,
 section,
 footer {
     max-width: 1440px;
     min-width: 380px;
+    /*max-width: 100%;*/ /* didnt work*/
     width: 100%;
+    /*overflow-x: hidden;*/ /* didnt work => it's not section content that overflows but section itself*/
 }
 
 @media screen and (max-width: 400px) {
