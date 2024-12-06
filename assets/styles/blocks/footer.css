@@ -21,6 +21,7 @@
 
 .footer__contacts-item {
     flex: 1 1 417px;
+    max-height: 204px;
     height: 204px;
     border-radius: 20px;
     background-color: var(--content-bg);
@@ -36,21 +37,9 @@
 }
 
 @media screen and (max-width: 400px) {
-    /* .footer__container {
-        width: 350px;
-    }*/
 
-    .footer__contacts-holder {
-        flex-flow: column nowrap;
-    }
-    
     .footer__contacts-item {
         flex: 0 0 350px;
-    }
-
-    .footer__contacts-link {
-        box-sizing: border-box;
-        width: 350px;
     }
 }
 
@@ -84,4 +73,3 @@
         color: var(--primary);
     }
 }
-
