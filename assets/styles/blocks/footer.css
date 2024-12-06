@@ -17,7 +17,6 @@
     width: 100%;
 }
 
-
 .footer__contacts-item {
     flex: 1 1 417px;
     max-height: 204px;
@@ -25,7 +24,6 @@
     border-radius: 20px;
     background-color: var(--content-bg);
 }
-
 
 .footer__contacts-link {
     display: flex;
