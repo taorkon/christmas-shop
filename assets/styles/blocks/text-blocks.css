@@ -1,16 +1,12 @@
-@import url(fonts.css);
-@import url(colors.css);
-
 /* Text Blocks */
 .caption {
-    font-family: 'Allura', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
+    text-align: center;
     line-height: 100%;
     letter-spacing: 0.05em;
-    text-align: center;
-
     color: var(--white);
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .caption--red {
@@ -28,19 +24,18 @@
 .action-small,
 .action-large,
 .slider-text {
+    text-align: center;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-
-    text-align: center;
 }
 
 .header-1 {
-    font-size: 32px;
+    width: 426px;
     line-height: 150%;
     letter-spacing: 0.18em;
-
     color: var(--white);
+    font-size: 32px;
 }
 
 .header-1__text {
@@ -48,12 +43,18 @@
     word-break: keep-all;
 }
 
+@media screen and (max-width: 480px) {
+    .header-1 {
+        max-width: 364px;
+        width: 364px;
+    }
+}
+
 .header-2 {
-    font-size: 24px;
     line-height: 152%;
     letter-spacing: 0.16em;
-
     color: var(--white);
+    font-size: 24px;
 }
 
 .header-2--dark {
@@ -61,21 +62,18 @@
 }
 
 .header-3 {
-    font-size: 16px;
     line-height: 152%;
     letter-spacing: 0.08em;
-
     color: var(--dark);
+    font-size: 16px;
 }
 
 .header-4 {
-    font-size: 12px;
+    text-align: left;
     line-height: 130%;
     letter-spacing: 0.05em;
-
-    text-align: left;
-
     color: var(--white);
+    font-size: 12px;
 }
 
 .header-4--work {
@@ -118,7 +116,7 @@
 
 .slider-text {
     font-size: 80px;
-    line-height: auto;
+    line-height: normal;
     letter-spacing: 0em;
 
     color: var(--white)

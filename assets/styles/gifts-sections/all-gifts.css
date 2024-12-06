@@ -1,0 +1,65 @@
+/* ALL GIFTS SECTION */
+
+.all-gifts {
+    border-radius: 20px;
+    background-image: url('../../images/all-gifts__css-bkg.png');
+    background-size: 1440px 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 60px 8px;
+}
+
+.all-gifts__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.all-gifts__filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.all-gifts__filter-item {
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .all-gifts__filter-list {
+        gap: 0px;
+    }
+
+    .all-gifts__filter-item {
+        padding: 12px 8px;
+    }
+}
+
+.all-gifts__card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Hover */
+
+@media (hover: hover) {
+    .all-gifts__filter-item {
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .all-gifts__filter-item:hover {
+        background-color: var(--white20);
+    }
+}
+
+/* Active */
+
+.all-gifts__filter-item--active {
+    background-color: var(--white20);
+}
