@@ -2,32 +2,39 @@
 .card {
     flex: 0 0 310px;
     width: 310px;
-    height: 342px;
     border-radius: 20px;
     background-color: var(--white);
     cursor: pointer;
-    overflow: hidden;
 }
 
 .card__img-holder {
     background-color: var(--content-bg);
+    border-radius: 20px 20px 0px 0px;
 }
 
 .card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    height: 112px;
     padding: 20px;
 }
 
+
 .card__content > .header-3 {
-    overflow: hidden;
+    font-size: 16px;
+    height: 3.04em;
     text-align: left;
-    word-break: keep-all;
+
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    line-clamp: 2;
     -webkit-box-orient: vertical;
+    word-break: break-word;
+    overflow-y: hidden;
+}
+
+.card__content > .header-3__text {
+    text-align: left;
 }
 
 /* Hover */
