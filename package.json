@@ -1,0 +1,25 @@
+{
+  "name": "christmas-shop",
+  "version": "1.0.0",
+  "description": "A mock two-page website for a shop with christmas presents ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taorkon/christmas-shop.git"
+  },
+  "keywords": [
+    "js",
+    "jvascript",
+    "css",
+    "html"
+  ],
+  "author": "taorkon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taorkon/christmas-shop/issue"
+  },
+  "homepage": "https://taorkon.github.io/christmas-shop/"
+}
