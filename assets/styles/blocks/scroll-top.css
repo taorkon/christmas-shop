@@ -1,0 +1,22 @@
+/* Scroll to Top Button*/
+
+.scroll-top {
+    display: flex;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border: 1px solid var(--primary);
+    border-radius: 100%;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+    .scroll-top {
+        display: none;
+    }
+}
