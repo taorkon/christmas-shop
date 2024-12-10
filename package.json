@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A mock two-page website for a shop with christmas presents ",
   "main": "index.html",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
