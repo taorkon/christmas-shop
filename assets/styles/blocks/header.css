@@ -18,6 +18,10 @@
     padding: 8px 20px;
 }
 
+.logo__link--disabled {
+    pointer-events: none;
+}
+
 .logo__icon {
     width: 24px;
     height: 24px

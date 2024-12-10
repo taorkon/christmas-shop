@@ -19,7 +19,7 @@
     <header>
         <div class="header__content">
             <div class="logo">
-                <a href="index.html" class="logo__link">
+                <a href="index.html" class="logo__link logo__link--disabled">
                     <img src="assets/icons/logo__icon.svg" alt="Logo with a red-coloured snowflake" class="logo__icon">
                     <div class="logo__text-holder">
                         <p class="action-small">The Gifts</p>
@@ -50,10 +50,36 @@
                     </li>
                 </ul>
             </nav>
-            <button class="burger">
-                <div class="burger__line"></div>
-                <div class="burger__line"></div>
-            </button>
+            <div class="burger">
+                <button class="burger__btn">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </button>
+                <nav class="burger__navbar">
+                    <ul class="burger__list">
+                        <li class="burger__item">
+                            <a href="gifts.html" class="burger__link">
+                                <p class="action-large">Gifts</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="index.html#about" class="burger__link">
+                                <p class="action-large">About</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="index.html#best-gifts" class="burger__link">
+                                <p class="action-large">Best</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="#contacts" class="burger__link">
+                                <p class="action-large">Contacts</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -370,6 +396,7 @@
             </div>
         </div>
     </footer>
+    <script src="src/burger.js"></script>
 </body>
 
 </html>

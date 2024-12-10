@@ -14,6 +14,7 @@
 
 @import url(blocks/text-blocks.css);
 @import url(blocks/navbar.css);
+@import url(blocks/burger.css);
 @import url(blocks/card.css);
 @import url(blocks/cta-btn.css);
 @import url(blocks/header.css);

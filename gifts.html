@@ -29,7 +29,7 @@
             <nav class="navbar">
                 <ul class="navbar__list">
                     <li class="navbar__item">
-                        <a href="gifts.html" class="navbar__link">
+                        <a href="gifts.html" class="navbar__link navbar__link--disabled">
                             <p class="action-small">Gifts</p>
                         </a>
                     </li>
@@ -50,10 +50,36 @@
                     </li>
                 </ul>
             </nav>
-            <button class="burger">
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-            </button>
+            <div class="burger">
+                <button class="burger__btn">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </button>
+                <nav class="burger__navbar">
+                    <ul class="burger__list">
+                        <li class="burger__item">
+                            <a href="gifts.html" class="burger__link burger__link--disabled ">
+                                <p class="action-large">Gifts</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="index.html#about" class="burger__link">
+                                <p class="action-large">About</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="index.html#best-gifts" class="burger__link">
+                                <p class="action-large">Best</p>
+                            </a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="#contacts" class="burger__link">
+                                <p class="action-large">Contacts</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -326,6 +352,7 @@
             </div>
         </div>
     </footer>
+    <script src="src/burger.js"></script>
 </body>
 
 </html>
