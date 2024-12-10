@@ -1,5 +1,6 @@
 const counterUnits = document.querySelectorAll(".cta__counter-unit");
-const countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+const year = new Date().getFullYear();
+const countDownDate = new Date(`Jan 1, ${year + 1} 00:00:00`).getTime();
 
 const counter = setInterval(function () {
     const now = new Date().getTime();
@@ -15,9 +16,5 @@ const counter = setInterval(function () {
     for (let i = 0; i < counterUnits.length; i += 1) {
         counterUnits[i].firstElementChild.firstElementChild.
             textContent = calculatedTime[i];
-    }
-    // If the count down is over, disable counter
-    if (difference < 0) {
-        clearInterval(counter);
     }
 }, 1000);
