@@ -1,0 +1,24 @@
+/*HEADER*/
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1080px;
+    min-width: 364px;
+    width: 95%;
+    padding: 12px 0px;
+}
+
+.logo__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 8px 20px;
+}
+
+.logo__icon {
+    width: 24px;
+    height: 24px
+}

@@ -1,63 +1,58 @@
-@import url(colors.css);
-
-
 /* CTA SECTION */
 
 .cta {
     border-radius: 0px 0px 20px 20px;
-
-    background-image: url(../images/cta__css-bkg.png), url(../images/section__css-bkg.png);
+    background-image: url(../../images/cta__css-bkg.png), url(../../images/section__css-bkg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .cta__content {
-    width: 426px;
-    height: 428px;
-    padding: 120px 0px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 426px;
+    min-width: 364px;
+    padding: 120px 0px;
+}
+
+@media screen and (max-width: 400px) {
+    .cta__content{
+        width: 360px;
+    }
 }
 
 .cta__counter-holder {
     display: flex;
     flex-direction: column;
-
     gap: 8px;
 }
 
 .cta__counter {
-    width: 344px;
-    height: 72px;
-    padding: 8px 12px 12px 12px;
-
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    
-
-    background-color: var(--white40);
+    width: 344px;
+    height: 72px;
     border-radius: 20px;
+    background-color: var(--white40);
+    padding: 8px 12px 12px 12px;
 }
 
 .cta__counter-unit {
-    width: 80px;
-    height: 36px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80px;
+    height: 36px;
 }
 
 .cta__counter-divider {
+    align-self: center;
     height: 20px;
     width: 1px;
-    align-self: center;
-
     background-color: var(--white40);
 }
