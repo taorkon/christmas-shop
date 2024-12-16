@@ -1,15 +1,20 @@
 /* CTA BUTTON  STYLES */
 
 .cta-btn {
-    display: flex;
-    align-items: center;
     width: 235px;
     height: 56px;
     border-radius: 20px;
     border-width: 0px;
     cursor: pointer;
     background-color: var(--dark);
-    padding: 20px 32px;
+}
+
+.cta-btn__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 /* Behaviour on hover*/
@@ -19,7 +24,7 @@
         transition: background-color 0.5s ease-in-out;
     }
 
-    .cta-btn > .action-small {
+    .cta-btn .action-small {
         transition: color 0.5s ease-in-out;
     }
 
@@ -27,7 +32,7 @@
         background-color: var(--white);
     }
 
-    .cta-btn:hover > .action-small {
+    .cta-btn:hover .action-small {
         color: var(--dark);
     }
 }
