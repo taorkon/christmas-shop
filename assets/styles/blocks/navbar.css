@@ -43,20 +43,5 @@
 @media screen and (max-width: 768px) {
     .navbar {
         display: none;
-        /*
-        position: fixed;
-        top: 64px;
-        left: 0px;
-        bottom: 0px;
-        right: 0px;
-
-        visibility: hidden;
-
-        background-color: var(--white);
-        /*transition: visibility 0.4s ease-in-out;*/
     }
-/*
-    .navbar__list {
-        flex-direction: column;
-    }*/
 }
