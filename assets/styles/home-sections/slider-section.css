@@ -20,9 +20,11 @@
 }
 
 .slider__items {
+    position: relative;
     display: flex;
     gap: 20px;
     width: 1993px;
+    transition: transform .5s;
 }
 
 .slider__item {
